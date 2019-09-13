@@ -1,0 +1,44 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+  
+td {
+    padding: 2pt 3pt;
+}
+
+td p {
+    margin: 0;
+}
+
+table tr:first-child p {
+    font-size: 14pt;
+    text-align: center;
+}
+
+table tr:nth-child(odd):not(:first-child) {
+    background-color: #ededed;
+}
+
+table tr:nth-child(2) p {
+    font-size: 12pt;
+    font-weight: lighter;
+    text-align: center;
+}
+
+table tr:nth-child(n+3) td:not(:first-child) p {
+    font-size: 14pt;
+    font-weight: 900;
+}
+
+table tr td:first-child span:first-child {
+    font-size: 14pt;
+}
+
+table:not(:first-of-type) td:not(:first-child) p {
+    text-align: center;
+}
+
+table tr td span:last-child {
+    font-size: 11pt;
+    font-weight: 400;
+}
